@@ -4,8 +4,8 @@ public class roman {
         public static String convertirEnRomains(int nombre) {
             
     
-            int[] valeurs = { 10, 9, 5, 4, 1};
-            String[] symboles = { "X", "IX", "V", "IV", "I"};
+            int[] valeurs = { 100, 90, 50, 40, 10, 9, 5, 4, 1};
+            String[] symboles = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
     
             StringBuilder resultat = new StringBuilder();
     
