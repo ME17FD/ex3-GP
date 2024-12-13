@@ -19,12 +19,6 @@ public class roman {
             return resultat.toString();
         }
     
-        public static void main(String[] args) {
-            int nombre = 4534; 
-           
-            String romain = convertirEnRomains(nombre);
-            System.out.println("Le chiffre arabe " + nombre + " en chiffre romain est : " + romain);
-            
-        }
+        
     
 }
